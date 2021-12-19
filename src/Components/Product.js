@@ -4,7 +4,7 @@ const Product = ({ item, onAdd, onRemove, isCart }) => {
   return (
     <div className="cart">
       <img
-        src="https://cdn3d.iconscout.com/3d/premium/thumb/tea-4548634-3773222.png"
+        src={item.img}
         alt="imgage"
         border="0"
         width="100px"
